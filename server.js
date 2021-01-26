@@ -67,7 +67,6 @@ app.get('/fetch', (req, res) => {
 
 
 
-//http://192.168.1.4:8081/create
-var server = app.listen(8081, "192.168.1.4", () => {
+var server = app.listen(8081, "YOUR IPV4 Address", () => {
     console.log("Server is running!")
 })
